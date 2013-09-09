@@ -1,0 +1,22 @@
+
+#first7
+{
+text-align:center;
+color:red;
+}
+
+#neste7
+{
+text-align:center;
+color:green;
+}
+
+#siste8
+{
+text-align:center;
+color:blue;
+}
+
+ul {
+list-style-type: none;
+}

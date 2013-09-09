@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<!--
+  LAB1
+  Navn: Sondre Lind
+  Jeg samarbeidet med: Behzad, hjalp meg å farge enkelte seksjoner. Han hjalp meg også med Javascriptingen.
+  Tiden jeg har brukt på oppgaven: 4 timer +-
+-->
+
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Programmeringsspråk (versjon 0.0.1)</title>
+
+ <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+ 
+ 
+ <script>
+function visTxt()
+{
+var språktype="";
+
+språktype = document.getElementById("select_id").value; 
+
+if(språktype==""){
+        document.getElementById("melding").innerHTML="Velg et språk ";}
+
+else{document.getElementById("melding").innerHTML="Du har valgt programeringsspråk " +språktype;
+}}
+</script>
+
+</head>
+
+ 
+<head>
+<link rel="stylesheet" type="text/css" href="proglangcss.css">
+</head>
+ 
+</head>
+<body>
+
+<head>
+<title>Presantasjon av programmeringsspråk</title>
+</head>
+
+
+<body>
+<center> <h1> Forskjellige programmeringsspråk </h1> </center>
+
+<ul>
+	<a1 id= "first7"><li>ActionScript</li>
+	<li>AppleScript</li>
+	<li>Asp</li>
+	<li>BASIC</li>
+	<li>C</li>
+	<li>C++</li>
+	<li>Clojure</li></a1>
+	<a2 id= "neste7"><li>COBOL</li>
+	<li>ColdFusion</li>
+	<li>Erlang</li>
+	<li>Fortran</li>
+	<li>Groovy</li>
+	<li>Haskell</li>
+	<li>Java</li></a2>
+	<a3 id= "siste8"><li>JavaScript</li>
+	<li>Lisp</li>
+	<li>Perl</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>Scala</li>
+	<li>Scheme</li></a3>
+</ul>
+
+<center> <p>----------------------------------------------------------------------------------------------</p> </center>
+<center>
+<h2><p id="melding">Velg et språk</p></h2>
+
+<form>
+<select id="select_id" onchange="visTxt()">
+  <option value="Actionscript">Actionscript</option>
+  <option value="Applescript">Applescript</option>
+  <option value="Asp">Asp</option>
+  <option value="BASIC">BASIC</option>
+  <option value="C">C</option>
+  <option value="C++">C++</option>
+  <option value="Clojure">Clojure</option>
+  <option value="COBOL">COBOL</option>
+  <option value="ColdFusion">ColdFusion</option>
+  <option value="Erlang">Erlang</option>
+  <option value="Fortran">Fortran</option>
+  <option value="Groovy">Groovy</option>
+  <option value="Haskell">Haskell</option>
+  <option value="Java">Java</option>
+  <option value="Javascript">Javascript</option>
+  <option value="Lisp">Lisp</option>
+  <option value="Perl">Perl</option>
+  <option value="PHP">PHP</option>
+  <option value="Python">Python</option>
+  <option value="Scala">Scala</option>
+  <option value="Scheme">Scheme</option>
+ </select>
+</form>
+</center>
+  
+
+
+  
+</body>
+
+</html>
