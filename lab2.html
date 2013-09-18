@@ -3,9 +3,55 @@
 	<title>Programmeringsspråk</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="lab2.css">
+	
+	
+<script>
+	function visTxt()
+	{
+	var språktype="";
+
+	språktype = document.getElementById("select_id").value; 
+
+	if(språktype==""){
+        document.getElementById("melding").innerHTML="Velg et språk ";}
+
+	else{document.getElementById("melding").innerHTML="Du har valgt programeringsspråk " +språktype;
+	}}
+</script>
+
 </head>
 
 <body>
+
+<center>
+ Søk i programmeringsspråk:
+
+<form>
+<select id="select_id" onchange="visTxt()">
+  <option value="Actionscript">Actionscript</option>
+  <option value="Applescript">Applescript</option>
+  <option value="Asp">Asp</option>
+  <option value="BASIC">BASIC</option>
+  <option value="C">C</option>
+  <option value="C++">C++</option>
+  <option value="Clojure">Clojure</option>
+  <option value="COBOL">COBOL</option>
+  <option value="ColdFusion">ColdFusion</option>
+  <option value="Erlang">Erlang</option>
+  <option value="Fortran">Fortran</option>
+  <option value="Groovy">Groovy</option>
+  <option value="Haskell">Haskell</option>
+  <option value="Java">Java</option>
+  <option value="Javascript">Javascript</option>
+  <option value="Lisp">Lisp</option>
+  <option value="Perl">Perl</option>
+  <option value="PHP">PHP</option>
+  <option value="Python">Python</option>
+  <option value="Scala">Scala</option>
+  <option value="Scheme">Scheme</option>
+ </select>
+</form>
+</center>
 
 <!-- Navigering for siden -->
 <ul class="navbar">					
@@ -18,7 +64,7 @@
 <!-- Innhold -->
 <h1>Programmeringsspråk - hva er det?</h1>
 
-<p> Velkommen til en mystisk verden av programmeringsspråk! </p>
+<p id="melding">  Velkommen til en mystisk verden av programmeringsspråk! </p>
 
 <hr>
 <!-- Dato og navn -->
