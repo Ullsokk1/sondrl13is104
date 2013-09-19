@@ -10,3 +10,9 @@
 
 	else{document.getElementById("melding").innerHTML="Du har valgt programeringsspråk " +språktype;
 	}}
+
+	
+function myFunction()
+{
+alert("Denne siden er under konstruksjon!");
+}
