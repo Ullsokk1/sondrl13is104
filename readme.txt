@@ -29,3 +29,23 @@ filen, grunnen til dette er fordi at model inneholder all den dataen vi har.
 View: tolker css filen, siden view handler om hvordan en tolker fila og bestemmer hvordan vår data skal vises.
 
 Controller: javascript filen kontrollerer hva som skal vises av informasjon som er inni HTML-filen.
+
+
+Lab 3 oppgaver:
+
+0: Det at man har eksisterende filer som man henter fra Jquery bibloteket gjør det raskere enn javascript siden 
+javascript tolker de alt online. Noe som resulterer i at Jquery blir hentet opp fortere. Jquery har også en veldig forenklet
+vei å kode på enn JS.
+
+1: HTML/CSS og Canvas har begge forskjellige styrker. Canvas har f.eks en mer tungvint måte å formatere tekst på sammenlignet
+med HTML/CSS. HTML/CSS bruker tagger som <p> og style font: bold mens canvas bruker en fillText metode. Canvas kan være ofte
+bra å bruke fremfor css+js fordi den er med på å forenkle codingen veldig mye og kan også være mer stabil.
+
+Q 2) Hvilken grafisk presentasjonsmåte (se Innledning til denne oppgaven) hadde du sagt at 
+HTML5 Canvas representerer? Forklar.
+
+2: Html5 canvas sin grafiske presentasjonsmåte mener jeg er det at den gir et godt dynamiskt brukergrensesnitt. Metoden
+den oppererer på er med på å gi applikasjoner på nettet kan være mer responsive enn f.eks standard JS.
+
+x: Jeg fikk litt hint av Oddvar med hvordan jeg skulle få skrevet ut i blå på oppgave Lab3_v1. Ellers har jeg brukt rundt 5-6 timer på oppgaven.
+
